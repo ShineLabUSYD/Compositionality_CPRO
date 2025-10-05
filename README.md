@@ -5,9 +5,9 @@ This repository contains the code used in my project *"Compositional Recombinati
 
 **Data** was downloaded from *OpenNeuro* [ds003701](https://openneuro.org/datasets/ds003701/versions/1.0.1) and originally collected from this [paper](https://www.nature.com/articles/s41467-017-01000-w).
 ## code
-The code folder contains the code required to run the analyses and produce the figures. The following scripts will be described in an order that fits with the manuscript and analyses. Note that these scripts are not functions and should be viewed similar to a notebook.
+The code folder contains the code required to run the analyses and produce the figures. The following scripts will be described in an order that fits with the manuscript and analyses. Note that these scripts are not functions and should be viewed similar to a notebook. Figures do not appear in manuscript order but in the order that they were made using the data.
 
-- [dataprep_behavioural.m](https://github.com/ShineLabUSYD/Compositionality_CPRO/blob/main/code/dataprep_behavioural.m) includes code for processing the data after pre-processing. Reads in the behavioural data (.tsv) and timeseries data (.mat), and removes missing values, as well as separates correct and incorrect trials. Statistical analysis of behavioural differences are also calculated here (refer to manuscript for more details). **The outputs from this script are used for all analyses described below.** This script has code to produce Figures 1d-f.
+- [dataprep_behavioural.m](https://github.com/ShineLabUSYD/Compositionality_CPRO/blob/main/code/dataprep_behavioural.m) includes code for processing the data after pre-processing. Reads in the behavioural data (.tsv) and timeseries data (.mat), and removes missing values, as well as separates correct and incorrect trials. Statistical analysis of behavioural differences are also calculated here (refer to manuscript for more details). **The outputs from this script are used for all fMRI analyses described below.** This script has code to produce Figures 1d-f.
 
 - [FIR_analysis.m](https://github.com/ShineLabUSYD/Compositionality_CPRO/blob/main/code/FIR_analysis.m) creates the design matrix to model the BOLD timeseries using a *Finite Impulse Response (FIR) model*.
 
