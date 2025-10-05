@@ -1,5 +1,7 @@
 ## Code to make brain visualisations
 
+Note that these functions have been designed to specifically work with the parcellations used in the manuscript (Cortical Schaefer 400, Cerebellar SUIT 28, Subcortical Tian 54). If you are using different parcellations then you will need to adjust the scripts accordingly. 
+
 To run surf_schaef2.mat, download the relevant labels and surface files.
 You also need to have the **"gifti"** function which is easiest to set up by downloading **[SPM12](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/)**.
 
