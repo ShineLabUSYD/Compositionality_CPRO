@@ -1,0 +1,14 @@
+name: yang_multitask
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - anaconda_prompt
+  - spyder
+  - matplotlib
+  - tensorflow=1.15
+  - seaborn
+  - pandas
+  - numpy=1.16
+  - scipy
+prefix: C:\Users\JoshB\anaconda3\envs\yang_multitask
