@@ -1,7 +1,7 @@
 # Compositional Recombination Relies on a Distributed Cortico-Cerebellar Network
 This repository contains the code used in my project *"Compositional Recombination Relies on a Distributed Cortico-Cerebellar Network"* . 
 
-**Code** was written using a combination of MATLAB and Python scripts.
+**Code** was written using a combination of MATLAB (v2022b) and Python scripts. Requirements for MATLAB includes the Statistics and Machine Learning Toolbox. Requirements for Python scripts are in the environment.yaml file.
 
 **Data** was downloaded from *OpenNeuro* [ds003701](https://openneuro.org/datasets/ds003701/versions/1.0.1) and originally collected from this [paper](https://www.nature.com/articles/s41467-017-01000-w).
 ## code
