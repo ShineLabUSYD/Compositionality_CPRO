@@ -3,7 +3,7 @@ This repository contains the code used in my project *"Compositional Recombinati
 
 **Code** was written using a combination of MATLAB (v2022b) and Python scripts. Requirements for MATLAB includes the Statistics and Machine Learning Toolbox. Requirements for Python scripts are in the environment.yaml file.
 
-**Data** was downloaded from *OpenNeuro* [ds003701](https://openneuro.org/datasets/ds003701/versions/1.0.1) and originally collected from this [paper](https://www.nature.com/articles/s41467-017-01000-w).
+**Data** was downloaded from *OpenNeuro* [ds003701](https://openneuro.org/datasets/ds003701/versions/1.0.1) and originally collected from this [paper](https://www.nature.com/articles/s41467-017-01000-w). Data required to reproduce the partial least squares analysis is available to download [from zenodo repository]( 10.5281/zenodo.17374383).
 ## code
 The code folder contains the code required to run the analyses and produce the figures. The following scripts will be described in an order that fits with the manuscript and analyses. Note that these scripts are not functions and should be viewed similar to a notebook. Figures do not appear in manuscript order but in the order that they were made using the data.
 
