@@ -5,8 +5,6 @@ RNN_analysis.py
 This script is the initial exploration of Recurrent Neural 
 Networks from Yang et al. (2019) - Multitasking neural networks
 
-Code made with the help of claude ai
-
 Josh
 
 """
